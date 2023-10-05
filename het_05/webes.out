@@ -1,0 +1,38 @@
+Problem:    webes
+Rows:       8
+Columns:    6 (6 integer, 6 binary)
+Non-zeros:  25
+Status:     INTEGER OPTIMAL
+Objective:  hangulat = 15 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 frontend                    2             1               
+     2 backend                     2             1               
+     3 database                    1             1               
+     4 css                         3             1               
+     5 agility                     1             1               
+     6 devops                      1             1               
+     7 fo                          4             3             4 
+     8 hangulat                   15                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 tibor        *              1             0             1 
+     2 david        *              1             0             1 
+     3 botond       *              0             0             1 
+     4 bence        *              1             0             1 
+     5 mark         *              1             0             1 
+     6 balazs       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,30 @@
+Problem:    tabletta
+Rows:       4
+Columns:    2 (2 integer, 0 binary)
+Non-zeros:  8
+Status:     INTEGER OPTIMAL
+Objective:  osszeg = 13000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 siker                      62            60               
+     2 adag                        8                           8 
+     3 osszetetel                  4            -0               
+     4 osszeg                  13000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 spenotos     *              2             0               
+     2 epres        *              6             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

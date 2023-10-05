@@ -1,0 +1,36 @@
+Problem:    mikulas
+Rows:       7
+Columns:    5 (5 integer, 5 binary)
+Non-zeros:  18
+Status:     INTEGER OPTIMAL
+Objective:  koltseg = 12 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 narancs                     2             1               
+     2 mogyoro                     1             1               
+     3 gumicukor                   1             1               
+     4 csoki                       1             1               
+     5 kinder                      2             1               
+     6 virgacs                     1             1               
+     7 koltseg                    12                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 csomag1      *              1             0             1 
+     2 csomag2      *              0             0             1 
+     3 csomag3      *              1             0             1 
+     4 csomag4      *              1             0             1 
+     5 csomag5      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

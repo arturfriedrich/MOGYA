@@ -1,0 +1,37 @@
+Problem:    fr
+Rows:       3
+Columns:    10 (10 integer, 0 binary)
+Non-zeros:  30
+Status:     INTEGER OPTIMAL
+Objective:  bevetel = 208320 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 bor                      1000                        1000 
+     2 szoda                    1500                        1500 
+     3 bevetel                208320                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 NF           *              0             0               
+     2 KF           *            832             0               
+     3 LF           *            166             0               
+     4 HL           *              2             0               
+     5 HM           *              0             0               
+     6 VHM          *              0             0               
+     7 KR           *              0             0               
+     8 SF           *              0             0               
+     9 PU           *              0             0               
+    10 HU           *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
