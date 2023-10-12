@@ -1,0 +1,29 @@
+Problem:    gyumolcs
+Rows:       3
+Columns:    2 (2 integer, 0 binary)
+Non-zeros:  6
+Status:     INTEGER OPTIMAL
+Objective:  nyereseg = 18000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 gyumolcs                12000                       12000 
+     2 cukor                    8000                        8000 
+     3 nyereseg                18000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 lekvar       *            100             0               
+     2 befott       *            100             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

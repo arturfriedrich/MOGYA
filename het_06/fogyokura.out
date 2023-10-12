@@ -1,0 +1,30 @@
+Problem:    fogyokura
+Rows:       4
+Columns:    2 (2 integer, 0 binary)
+Non-zeros:  8
+Status:     INTEGER OPTIMAL
+Objective:  piac = 140 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vitamin                   500           500               
+     2 vas                       1.2           1.2               
+     3 kaloria                   210                         400 
+     4 piac                      140                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 citrom       *              1             0               
+     2 alma         *              2             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

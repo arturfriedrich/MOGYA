@@ -1,0 +1,31 @@
+Problem:    eszterga
+Rows:       4
+Columns:    3 (3 integer, 0 binary)
+Non-zeros:  12
+Status:     INTEGER OPTIMAL
+Objective:  anyagkoltseg = 23 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 esztergagep                81                          81 
+     2 marogep                    70                          70 
+     3 bevetel                   100           100               
+     4 anyagkoltseg               23                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 T1           *             11             0               
+     2 T2           *             51             0               
+     3 T3           *              8             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
