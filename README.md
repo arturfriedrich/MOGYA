@@ -5,6 +5,6 @@ nem is lettek frissítve. A programkódokat nem én állítottam össze, csak ko
 és pár apróbb változtatást eszközöltem rajtuk.
 
 ## Oktatók
-- Dr. Szi Brigitta 
+- Dr. Szi Brigitta http://rs1.sze.hu/~szibr/GKNB_INTM019/
 
 PS.: Ha segített a repo felkészülni a vizsgára, egy csillagot azért dobhatsz, köszi <3
