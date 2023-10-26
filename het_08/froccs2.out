@@ -1,0 +1,40 @@
+Problem:    froccs2
+Rows:       3
+Columns:    11 (11 integer, 0 binary)
+Non-zeros:  33
+Status:     INTEGER OPTIMAL
+Objective:  Income = 288230 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 UseIngridients[Bor]
+                                1000                        1000 
+     2 UseIngridients[Szoda]
+                                1500                        1500 
+     3 Income                 288230                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Sale[NF]     *              1             0               
+     2 Sale[KF]     *              1             0               
+     3 Sale[HL]     *              0             0               
+     4 Sale[HM]     *              0             0               
+     5 Sale[KR]     *             57             0               
+     6 Sale[PU]     *              0             0               
+     7 Sale[HU]     *              1             0               
+     8 Sale[LF]     *              0             0               
+     9 Sale[SF]     *              0             0               
+    10 Sale[VHM]    *              0             0               
+    11 Sale[KFT]    *            480             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,46 @@
+Problem:    festival3
+Rows:       8
+Columns:    4 (4 integer, 4 binary)
+Non-zeros:  22
+Status:     INTEGER OPTIMAL
+Objective:  FestivalsWeGo = 2 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MustSeeEachBandAtLeastOne[Dalriada]
+                                   2             1               
+     2 MustSeeEachBandAtLeastOne[Metallica]
+                                   1             1               
+     3 MustSeeEachBandAtLeastOne[Eluveitie]
+                                   1             1               
+     4 MustSeeEachBandAtLeastOne[Liva]
+                                   1             1               
+     5 MustSeeEachBandAtLeastOne[IcedEarth]
+                                   2             1               
+     6 MustSeeEachBandAtLeastOne[Virrasztok]
+                                   1             1               
+     7 MustSeeEachBandAtLeastOne[IronMaiden]
+                                   2             1               
+     8 FestivalsWeGo
+                                   2                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 goto[RockMarathon]
+                    *              0             0             1 
+     2 goto[Sziget] *              1             0             1 
+     3 goto[Volt]   *              0             0             1 
+     4 goto[Metalfest]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
