@@ -1,0 +1,95 @@
+Problem:    autok
+Rows:       11
+Columns:    25 (25 integer, 25 binary)
+Non-zeros:  75
+Status:     INTEGER OPTIMAL
+Objective:  koltseg = 273000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ExactlyOneCarEachDay[Hetfo]
+                                   1             1             = 
+     2 ExactlyOneCarEachDay[Kedd]
+                                   1             1             = 
+     3 ExactlyOneCarEachDay[Szerda]
+                                   1             1             = 
+     4 ExactlyOneCarEachDay[Csutortok]
+                                   1             1             = 
+     5 ExactlyOneCarEachDay[Pentek]
+                                   1             1             = 
+     6 ExactlyOneCar[Wartburg]
+                                   1             1             = 
+     7 ExactlyOneCar[Lada]
+                                   1             1             = 
+     8 ExactlyOneCar[Kispolski]
+                                   1             1             = 
+     9 ExactlyOneCar[Trabant]
+                                   1             1             = 
+    10 ExactlyOneCar[Skoda]
+                                   1             1             = 
+    11 koltseg                273000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[Wartburg,Hetfo]
+                    *              0             0             1 
+     2 buy[Lada,Hetfo]
+                    *              0             0             1 
+     3 buy[Kispolski,Hetfo]
+                    *              0             0             1 
+     4 buy[Trabant,Hetfo]
+                    *              0             0             1 
+     5 buy[Skoda,Hetfo]
+                    *              1             0             1 
+     6 buy[Wartburg,Kedd]
+                    *              0             0             1 
+     7 buy[Lada,Kedd]
+                    *              0             0             1 
+     8 buy[Kispolski,Kedd]
+                    *              0             0             1 
+     9 buy[Trabant,Kedd]
+                    *              1             0             1 
+    10 buy[Skoda,Kedd]
+                    *              0             0             1 
+    11 buy[Wartburg,Szerda]
+                    *              1             0             1 
+    12 buy[Lada,Szerda]
+                    *              0             0             1 
+    13 buy[Kispolski,Szerda]
+                    *              0             0             1 
+    14 buy[Trabant,Szerda]
+                    *              0             0             1 
+    15 buy[Skoda,Szerda]
+                    *              0             0             1 
+    16 buy[Wartburg,Csutortok]
+                    *              0             0             1 
+    17 buy[Lada,Csutortok]
+                    *              0             0             1 
+    18 buy[Kispolski,Csutortok]
+                    *              1             0             1 
+    19 buy[Trabant,Csutortok]
+                    *              0             0             1 
+    20 buy[Skoda,Csutortok]
+                    *              0             0             1 
+    21 buy[Wartburg,Pentek]
+                    *              0             0             1 
+    22 buy[Lada,Pentek]
+                    *              1             0             1 
+    23 buy[Kispolski,Pentek]
+                    *              0             0             1 
+    24 buy[Trabant,Pentek]
+                    *              0             0             1 
+    25 buy[Skoda,Pentek]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

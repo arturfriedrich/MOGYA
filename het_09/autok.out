@@ -1,0 +1,60 @@
+Problem:    autok
+Rows:       11
+Columns:    25 (25 integer, 25 binary)
+Non-zeros:  75
+Status:     INTEGER OPTIMAL
+Objective:  koltseg = 273000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 hetfo                       1             1             = 
+     2 kedd                        1             1             = 
+     3 szerda                      1             1             = 
+     4 csutortok                   1             1             = 
+     5 pentek                      1             1             = 
+     6 wartburg                    1             1             = 
+     7 lada                        1             1             = 
+     8 kispolski                   1             1             = 
+     9 trabant                     1             1             = 
+    10 skoda                       1             1             = 
+    11 koltseg                273000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 WH           *              0             0             1 
+     2 WK           *              0             0             1 
+     3 WSZ          *              1             0             1 
+     4 WCS          *              0             0             1 
+     5 WP           *              0             0             1 
+     6 LH           *              0             0             1 
+     7 LK           *              0             0             1 
+     8 LSZ          *              0             0             1 
+     9 LCS          *              0             0             1 
+    10 LP           *              1             0             1 
+    11 KH           *              0             0             1 
+    12 KK           *              0             0             1 
+    13 KSZ          *              0             0             1 
+    14 KCS          *              1             0             1 
+    15 KP           *              0             0             1 
+    16 TH           *              0             0             1 
+    17 TK           *              1             0             1 
+    18 TSZ          *              0             0             1 
+    19 TCS          *              0             0             1 
+    20 TP           *              0             0             1 
+    21 SH           *              1             0             1 
+    22 SK           *              0             0             1 
+    23 SSZ          *              0             0             1 
+    24 SCS          *              0             0             1 
+    25 SP           *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

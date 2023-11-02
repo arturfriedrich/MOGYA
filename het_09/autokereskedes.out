@@ -1,0 +1,135 @@
+Problem:    autokereskedes
+Rows:       36
+Columns:    25 (25 integer, 0 binary)
+Non-zeros:  250
+Status:     INTEGER OPTIMAL
+Objective:  bevetel = 346000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MustHavePositiveBalanceAtTheEndOfEachDays[1]
+                             -200000       -200000               
+     2 MustHavePositiveBalanceAtTheEndOfEachDays[2]
+                             -175000       -200000               
+     3 MustHavePositiveBalanceAtTheEndOfEachDays[3]
+                             -169000       -200000               
+     4 MustHavePositiveBalanceAtTheEndOfEachDays[4]
+                             -154000       -200000               
+     5 MustHavePositiveBalanceAtTheEndOfEachDays[5]
+                              146000       -200000               
+     6 CannotHaveMoreCarsThanGarageSpace[1]
+                                   4                           4 
+     7 CannotHaveMoreCarsThanGarageSpace[2]
+                                   3                           4 
+     8 CannotHaveMoreCarsThanGarageSpace[3]
+                                   3                           4 
+     9 CannotHaveMoreCarsThanGarageSpace[4]
+                                   3                           4 
+    10 CannotHaveMoreCarsThanGarageSpace[5]
+                                   0                           4 
+    11 CannotSellWhatWeDontHave[1,Wartburg]
+                                   0            -0               
+    12 CannotSellWhatWeDontHave[1,Lada]
+                                   4            -0               
+    13 CannotSellWhatWeDontHave[1,Kispolski]
+                                   0            -0               
+    14 CannotSellWhatWeDontHave[1,Trabant]
+                                   0            -0               
+    15 CannotSellWhatWeDontHave[1,Skoda]
+                                   0            -0               
+    16 CannotSellWhatWeDontHave[2,Wartburg]
+                                   0            -0               
+    17 CannotSellWhatWeDontHave[2,Lada]
+                                   0            -0               
+    18 CannotSellWhatWeDontHave[2,Kispolski]
+                                   0            -0               
+    19 CannotSellWhatWeDontHave[2,Trabant]
+                                   3            -0               
+    20 CannotSellWhatWeDontHave[2,Skoda]
+                                   0            -0               
+    21 CannotSellWhatWeDontHave[3,Wartburg]
+                                   0            -0               
+    22 CannotSellWhatWeDontHave[3,Lada]
+                                   0            -0               
+    23 CannotSellWhatWeDontHave[3,Kispolski]
+                                   0            -0               
+    24 CannotSellWhatWeDontHave[3,Trabant]
+                                   0            -0               
+    25 CannotSellWhatWeDontHave[3,Skoda]
+                                   3            -0               
+    26 CannotSellWhatWeDontHave[4,Wartburg]
+                                   0            -0               
+    27 CannotSellWhatWeDontHave[4,Lada]
+                                   0            -0               
+    28 CannotSellWhatWeDontHave[4,Kispolski]
+                                   0            -0               
+    29 CannotSellWhatWeDontHave[4,Trabant]
+                                   3            -0               
+    30 CannotSellWhatWeDontHave[4,Skoda]
+                                   0            -0               
+    31 CannotSellWhatWeDontHave[5,Wartburg]
+                                   0            -0               
+    32 CannotSellWhatWeDontHave[5,Lada]
+                                   0            -0               
+    33 CannotSellWhatWeDontHave[5,Kispolski]
+                                   0            -0               
+    34 CannotSellWhatWeDontHave[5,Trabant]
+                                   0            -0               
+    35 CannotSellWhatWeDontHave[5,Skoda]
+                                   0            -0               
+    36 bevetel                146000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[Wartburg,1]
+                    *              0                             
+     2 buy[Lada,1]  *              4                             
+     3 buy[Kispolski,1]
+                    *              0                             
+     4 buy[Trabant,1]
+                    *              0                             
+     5 buy[Skoda,1] *              0                             
+     6 buy[Wartburg,2]
+                    *              0                             
+     7 buy[Lada,2]  *             -4                             
+     8 buy[Kispolski,2]
+                    *              0                             
+     9 buy[Trabant,2]
+                    *              3                             
+    10 buy[Skoda,2] *              0                             
+    11 buy[Wartburg,3]
+                    *              0                             
+    12 buy[Lada,3]  *              0                             
+    13 buy[Kispolski,3]
+                    *              0                             
+    14 buy[Trabant,3]
+                    *             -3                             
+    15 buy[Skoda,3] *              3                             
+    16 buy[Wartburg,4]
+                    *              0                             
+    17 buy[Lada,4]  *              0                             
+    18 buy[Kispolski,4]
+                    *              0                             
+    19 buy[Trabant,4]
+                    *              3                             
+    20 buy[Skoda,4] *             -3                             
+    21 buy[Wartburg,5]
+                    *              0                             
+    22 buy[Lada,5]  *              0                             
+    23 buy[Kispolski,5]
+                    *              0                             
+    24 buy[Trabant,5]
+                    *             -3                             
+    25 buy[Skoda,5] *              0                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
