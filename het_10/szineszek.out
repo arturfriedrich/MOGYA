@@ -1,0 +1,450 @@
+Problem:    szineszek
+Rows:       136
+Columns:    100 (100 integer, 100 binary)
+Non-zeros:  390
+Status:     INTEGER OPTIMAL
+Objective:  koltseg = 1870 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MaxShootingHoursADay[1]
+                                   0                           8 
+     2 MaxShootingHoursADay[2]
+                                   0                           8 
+     3 MaxShootingHoursADay[3]
+                                   0                           8 
+     4 MaxShootingHoursADay[4]
+                                   0                           8 
+     5 MaxShootingHoursADay[5]
+                                   0                           8 
+     6 MaxShootingHoursADay[6]
+                                   0                           8 
+     7 MaxShootingHoursADay[7]
+                                   0                           8 
+     8 MaxShootingHoursADay[8]
+                                   0                           8 
+     9 MaxShootingHoursADay[9]
+                                   8                           8 
+    10 MaxShootingHoursADay[10]
+                                 6.9                           8 
+    11 IfActorActsADay[1,1,A]
+                                   0                          -0 
+    12 IfActorActsADay[1,1,E]
+                                   0                          -0 
+    13 IfActorActsADay[1,2,B]
+                                   0                          -0 
+    14 IfActorActsADay[1,2,C]
+                                   0                          -0 
+    15 IfActorActsADay[1,2,D]
+                                   0                          -0 
+    16 IfActorActsADay[1,3,A]
+                                   0                          -0 
+    17 IfActorActsADay[1,3,D]
+                                   0                          -0 
+    18 IfActorActsADay[1,3,E]
+                                   0                          -0 
+    19 IfActorActsADay[1,4,B]
+                                   0                          -0 
+    20 IfActorActsADay[1,4,C]
+                                   0                          -0 
+    21 IfActorActsADay[1,5,C]
+                                   0                          -0 
+    22 IfActorActsADay[1,5,D]
+                                   0                          -0 
+    23 IfActorActsADay[2,1,A]
+                                   0                          -0 
+    24 IfActorActsADay[2,1,E]
+                                   0                          -0 
+    25 IfActorActsADay[2,2,B]
+                                   0                          -0 
+    26 IfActorActsADay[2,2,C]
+                                   0                          -0 
+    27 IfActorActsADay[2,2,D]
+                                   0                          -0 
+    28 IfActorActsADay[2,3,A]
+                                   0                          -0 
+    29 IfActorActsADay[2,3,D]
+                                   0                          -0 
+    30 IfActorActsADay[2,3,E]
+                                   0                          -0 
+    31 IfActorActsADay[2,4,B]
+                                   0                          -0 
+    32 IfActorActsADay[2,4,C]
+                                   0                          -0 
+    33 IfActorActsADay[2,5,C]
+                                   0                          -0 
+    34 IfActorActsADay[2,5,D]
+                                   0                          -0 
+    35 IfActorActsADay[3,1,A]
+                                   0                          -0 
+    36 IfActorActsADay[3,1,E]
+                                   0                          -0 
+    37 IfActorActsADay[3,2,B]
+                                   0                          -0 
+    38 IfActorActsADay[3,2,C]
+                                   0                          -0 
+    39 IfActorActsADay[3,2,D]
+                                   0                          -0 
+    40 IfActorActsADay[3,3,A]
+                                   0                          -0 
+    41 IfActorActsADay[3,3,D]
+                                   0                          -0 
+    42 IfActorActsADay[3,3,E]
+                                   0                          -0 
+    43 IfActorActsADay[3,4,B]
+                                   0                          -0 
+    44 IfActorActsADay[3,4,C]
+                                   0                          -0 
+    45 IfActorActsADay[3,5,C]
+                                   0                          -0 
+    46 IfActorActsADay[3,5,D]
+                                   0                          -0 
+    47 IfActorActsADay[4,1,A]
+                                   0                          -0 
+    48 IfActorActsADay[4,1,E]
+                                   0                          -0 
+    49 IfActorActsADay[4,2,B]
+                                   0                          -0 
+    50 IfActorActsADay[4,2,C]
+                                   0                          -0 
+    51 IfActorActsADay[4,2,D]
+                                   0                          -0 
+    52 IfActorActsADay[4,3,A]
+                                   0                          -0 
+    53 IfActorActsADay[4,3,D]
+                                   0                          -0 
+    54 IfActorActsADay[4,3,E]
+                                   0                          -0 
+    55 IfActorActsADay[4,4,B]
+                                   0                          -0 
+    56 IfActorActsADay[4,4,C]
+                                   0                          -0 
+    57 IfActorActsADay[4,5,C]
+                                   0                          -0 
+    58 IfActorActsADay[4,5,D]
+                                   0                          -0 
+    59 IfActorActsADay[5,1,A]
+                                   0                          -0 
+    60 IfActorActsADay[5,1,E]
+                                   0                          -0 
+    61 IfActorActsADay[5,2,B]
+                                   0                          -0 
+    62 IfActorActsADay[5,2,C]
+                                   0                          -0 
+    63 IfActorActsADay[5,2,D]
+                                   0                          -0 
+    64 IfActorActsADay[5,3,A]
+                                   0                          -0 
+    65 IfActorActsADay[5,3,D]
+                                   0                          -0 
+    66 IfActorActsADay[5,3,E]
+                                   0                          -0 
+    67 IfActorActsADay[5,4,B]
+                                   0                          -0 
+    68 IfActorActsADay[5,4,C]
+                                   0                          -0 
+    69 IfActorActsADay[5,5,C]
+                                   0                          -0 
+    70 IfActorActsADay[5,5,D]
+                                   0                          -0 
+    71 IfActorActsADay[6,1,A]
+                                   0                          -0 
+    72 IfActorActsADay[6,1,E]
+                                   0                          -0 
+    73 IfActorActsADay[6,2,B]
+                                   0                          -0 
+    74 IfActorActsADay[6,2,C]
+                                   0                          -0 
+    75 IfActorActsADay[6,2,D]
+                                   0                          -0 
+    76 IfActorActsADay[6,3,A]
+                                   0                          -0 
+    77 IfActorActsADay[6,3,D]
+                                   0                          -0 
+    78 IfActorActsADay[6,3,E]
+                                   0                          -0 
+    79 IfActorActsADay[6,4,B]
+                                   0                          -0 
+    80 IfActorActsADay[6,4,C]
+                                   0                          -0 
+    81 IfActorActsADay[6,5,C]
+                                   0                          -0 
+    82 IfActorActsADay[6,5,D]
+                                   0                          -0 
+    83 IfActorActsADay[7,1,A]
+                                   0                          -0 
+    84 IfActorActsADay[7,1,E]
+                                   0                          -0 
+    85 IfActorActsADay[7,2,B]
+                                   0                          -0 
+    86 IfActorActsADay[7,2,C]
+                                   0                          -0 
+    87 IfActorActsADay[7,2,D]
+                                   0                          -0 
+    88 IfActorActsADay[7,3,A]
+                                   0                          -0 
+    89 IfActorActsADay[7,3,D]
+                                   0                          -0 
+    90 IfActorActsADay[7,3,E]
+                                   0                          -0 
+    91 IfActorActsADay[7,4,B]
+                                   0                          -0 
+    92 IfActorActsADay[7,4,C]
+                                   0                          -0 
+    93 IfActorActsADay[7,5,C]
+                                   0                          -0 
+    94 IfActorActsADay[7,5,D]
+                                   0                          -0 
+    95 IfActorActsADay[8,1,A]
+                                   0                          -0 
+    96 IfActorActsADay[8,1,E]
+                                   0                          -0 
+    97 IfActorActsADay[8,2,B]
+                                   0                          -0 
+    98 IfActorActsADay[8,2,C]
+                                   0                          -0 
+    99 IfActorActsADay[8,2,D]
+                                   0                          -0 
+   100 IfActorActsADay[8,3,A]
+                                   0                          -0 
+   101 IfActorActsADay[8,3,D]
+                                   0                          -0 
+   102 IfActorActsADay[8,3,E]
+                                   0                          -0 
+   103 IfActorActsADay[8,4,B]
+                                   0                          -0 
+   104 IfActorActsADay[8,4,C]
+                                   0                          -0 
+   105 IfActorActsADay[8,5,C]
+                                   0                          -0 
+   106 IfActorActsADay[8,5,D]
+                                   0                          -0 
+   107 IfActorActsADay[9,1,A]
+                                   0                          -0 
+   108 IfActorActsADay[9,1,E]
+                                   0                          -0 
+   109 IfActorActsADay[9,2,B]
+                                   0                          -0 
+   110 IfActorActsADay[9,2,C]
+                                  -1                          -0 
+   111 IfActorActsADay[9,2,D]
+                                  -1                          -0 
+   112 IfActorActsADay[9,3,A]
+                                   0                          -0 
+   113 IfActorActsADay[9,3,D]
+                                   0                          -0 
+   114 IfActorActsADay[9,3,E]
+                                   0                          -0 
+   115 IfActorActsADay[9,4,B]
+                                   0                          -0 
+   116 IfActorActsADay[9,4,C]
+                                  -1                          -0 
+   117 IfActorActsADay[9,5,C]
+                                   0                          -0 
+   118 IfActorActsADay[9,5,D]
+                                   0                          -0 
+   119 IfActorActsADay[10,1,A]
+                                   0                          -0 
+   120 IfActorActsADay[10,1,E]
+                                   0                          -0 
+   121 IfActorActsADay[10,2,B]
+                                   0                          -0 
+   122 IfActorActsADay[10,2,C]
+                                   0                          -0 
+   123 IfActorActsADay[10,2,D]
+                                   0                          -0 
+   124 IfActorActsADay[10,3,A]
+                                   0                          -0 
+   125 IfActorActsADay[10,3,D]
+                                  -1                          -0 
+   126 IfActorActsADay[10,3,E]
+                                   0                          -0 
+   127 IfActorActsADay[10,4,B]
+                                   0                          -0 
+   128 IfActorActsADay[10,4,C]
+                                   0                          -0 
+   129 IfActorActsADay[10,5,C]
+                                  -1                          -0 
+   130 IfActorActsADay[10,5,D]
+                                  -1                          -0 
+   131 DoAllScene[1]
+                                   1             1             = 
+   132 DoAllScene[2]
+                                   1             1             = 
+   133 DoAllScene[3]
+                                   1             1             = 
+   134 DoAllScene[4]
+                                   1             1             = 
+   135 DoAllScene[5]
+                                   1             1             = 
+   136 koltseg                  1870                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 DoScene[1,1] *              0             0             1 
+     2 DoScene[2,1] *              0             0             1 
+     3 DoScene[3,1] *              0             0             1 
+     4 DoScene[4,1] *              0             0             1 
+     5 DoScene[5,1] *              0             0             1 
+     6 DoScene[1,2] *              0             0             1 
+     7 DoScene[2,2] *              0             0             1 
+     8 DoScene[3,2] *              0             0             1 
+     9 DoScene[4,2] *              0             0             1 
+    10 DoScene[5,2] *              0             0             1 
+    11 DoScene[1,3] *              0             0             1 
+    12 DoScene[2,3] *              0             0             1 
+    13 DoScene[3,3] *              0             0             1 
+    14 DoScene[4,3] *              0             0             1 
+    15 DoScene[5,3] *              0             0             1 
+    16 DoScene[1,4] *              0             0             1 
+    17 DoScene[2,4] *              0             0             1 
+    18 DoScene[3,4] *              0             0             1 
+    19 DoScene[4,4] *              0             0             1 
+    20 DoScene[5,4] *              0             0             1 
+    21 DoScene[1,5] *              0             0             1 
+    22 DoScene[2,5] *              0             0             1 
+    23 DoScene[3,5] *              0             0             1 
+    24 DoScene[4,5] *              0             0             1 
+    25 DoScene[5,5] *              0             0             1 
+    26 DoScene[1,6] *              0             0             1 
+    27 DoScene[2,6] *              0             0             1 
+    28 DoScene[3,6] *              0             0             1 
+    29 DoScene[4,6] *              0             0             1 
+    30 DoScene[5,6] *              0             0             1 
+    31 DoScene[1,7] *              0             0             1 
+    32 DoScene[2,7] *              0             0             1 
+    33 DoScene[3,7] *              0             0             1 
+    34 DoScene[4,7] *              0             0             1 
+    35 DoScene[5,7] *              0             0             1 
+    36 DoScene[1,8] *              0             0             1 
+    37 DoScene[2,8] *              0             0             1 
+    38 DoScene[3,8] *              0             0             1 
+    39 DoScene[4,8] *              0             0             1 
+    40 DoScene[5,8] *              0             0             1 
+    41 DoScene[1,9] *              1             0             1 
+    42 DoScene[2,9] *              0             0             1 
+    43 DoScene[3,9] *              1             0             1 
+    44 DoScene[4,9] *              0             0             1 
+    45 DoScene[5,9] *              1             0             1 
+    46 DoScene[1,10]
+                    *              0             0             1 
+    47 DoScene[2,10]
+                    *              1             0             1 
+    48 DoScene[3,10]
+                    *              0             0             1 
+    49 DoScene[4,10]
+                    *              1             0             1 
+    50 DoScene[5,10]
+                    *              0             0             1 
+    51 ActorsComeIn[A,1]
+                    *              0             0             1 
+    52 ActorsComeIn[E,1]
+                    *              0             0             1 
+    53 ActorsComeIn[B,1]
+                    *              0             0             1 
+    54 ActorsComeIn[C,1]
+                    *              0             0             1 
+    55 ActorsComeIn[D,1]
+                    *              0             0             1 
+    56 ActorsComeIn[A,2]
+                    *              0             0             1 
+    57 ActorsComeIn[E,2]
+                    *              0             0             1 
+    58 ActorsComeIn[B,2]
+                    *              0             0             1 
+    59 ActorsComeIn[C,2]
+                    *              0             0             1 
+    60 ActorsComeIn[D,2]
+                    *              0             0             1 
+    61 ActorsComeIn[A,3]
+                    *              0             0             1 
+    62 ActorsComeIn[E,3]
+                    *              0             0             1 
+    63 ActorsComeIn[B,3]
+                    *              0             0             1 
+    64 ActorsComeIn[C,3]
+                    *              0             0             1 
+    65 ActorsComeIn[D,3]
+                    *              0             0             1 
+    66 ActorsComeIn[A,4]
+                    *              0             0             1 
+    67 ActorsComeIn[E,4]
+                    *              0             0             1 
+    68 ActorsComeIn[B,4]
+                    *              0             0             1 
+    69 ActorsComeIn[C,4]
+                    *              0             0             1 
+    70 ActorsComeIn[D,4]
+                    *              0             0             1 
+    71 ActorsComeIn[A,5]
+                    *              0             0             1 
+    72 ActorsComeIn[E,5]
+                    *              0             0             1 
+    73 ActorsComeIn[B,5]
+                    *              0             0             1 
+    74 ActorsComeIn[C,5]
+                    *              0             0             1 
+    75 ActorsComeIn[D,5]
+                    *              0             0             1 
+    76 ActorsComeIn[A,6]
+                    *              0             0             1 
+    77 ActorsComeIn[E,6]
+                    *              0             0             1 
+    78 ActorsComeIn[B,6]
+                    *              0             0             1 
+    79 ActorsComeIn[C,6]
+                    *              0             0             1 
+    80 ActorsComeIn[D,6]
+                    *              0             0             1 
+    81 ActorsComeIn[A,7]
+                    *              0             0             1 
+    82 ActorsComeIn[E,7]
+                    *              0             0             1 
+    83 ActorsComeIn[B,7]
+                    *              0             0             1 
+    84 ActorsComeIn[C,7]
+                    *              0             0             1 
+    85 ActorsComeIn[D,7]
+                    *              0             0             1 
+    86 ActorsComeIn[A,8]
+                    *              0             0             1 
+    87 ActorsComeIn[E,8]
+                    *              0             0             1 
+    88 ActorsComeIn[B,8]
+                    *              0             0             1 
+    89 ActorsComeIn[C,8]
+                    *              0             0             1 
+    90 ActorsComeIn[D,8]
+                    *              0             0             1 
+    91 ActorsComeIn[A,9]
+                    *              1             0             1 
+    92 ActorsComeIn[E,9]
+                    *              1             0             1 
+    93 ActorsComeIn[B,9]
+                    *              0             0             1 
+    94 ActorsComeIn[C,9]
+                    *              1             0             1 
+    95 ActorsComeIn[D,9]
+                    *              1             0             1 
+    96 ActorsComeIn[A,10]
+                    *              0             0             1 
+    97 ActorsComeIn[E,10]
+                    *              0             0             1 
+    98 ActorsComeIn[B,10]
+                    *              1             0             1 
+    99 ActorsComeIn[C,10]
+                    *              1             0             1 
+   100 ActorsComeIn[D,10]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
