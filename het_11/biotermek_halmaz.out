@@ -1,0 +1,47 @@
+Problem:    biotermek_halmaz
+Rows:       6
+Columns:    6 (6 integer, 0 binary)
+Non-zeros:  18
+Status:     INTEGER OPTIMAL
+Objective:  profit = 112460 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SzallithatoMennyiseg[Ackermann]
+                                 140                         140 
+     2 SzallithatoMennyiseg[Bauer]
+                                 180                         200 
+     3 EladottMennyiseg[B1]
+                                 150                         150 
+     4 EladottMennyiseg[B2]
+                                 110                         110 
+     5 EladottMennyiseg[B3]
+                                  60                          60 
+     6 profit                 112460                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 EladottDarab[B1,Ackermann]
+                    *             30             0               
+     2 EladottDarab[B2,Ackermann]
+                    *            110             0               
+     3 EladottDarab[B3,Ackermann]
+                    *              0             0               
+     4 EladottDarab[B1,Bauer]
+                    *            120             0               
+     5 EladottDarab[B2,Bauer]
+                    *              0             0               
+     6 EladottDarab[B3,Bauer]
+                    *             60             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
