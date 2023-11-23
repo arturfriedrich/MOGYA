@@ -1,0 +1,37 @@
+Problem:    gepek
+Rows:       6
+Columns:    4 (4 integer, 0 binary)
+Non-zeros:  21
+Status:     INTEGER OPTIMAL
+Objective:  kapactas = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 darabologep              2000                        2000 
+     2 forgacsologep
+                                1200          1200             = 
+     3 hegesztogep              3000                        3000 
+     4 AesBlegalabbCesD
+                                 800            -0               
+     5 BketszerannyiC
+                                   0            -0             = 
+     6 kapactas                -6200                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 A            *            500             0               
+     2 B            *            600             0               
+     3 C            *            300             0               
+     4 D            *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
