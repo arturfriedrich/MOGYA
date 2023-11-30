@@ -1,0 +1,44 @@
+Problem:    powerco
+Rows:       8
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  36
+Status:     INTEGER OPTIMAL
+Objective:  koltseg = 1020 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 elsoe                      35                          35 
+     2 masodike                   50                          50 
+     3 harmadike                  40                          40 
+     4 elsov                      45            45               
+     5 masodikv                   20            20               
+     6 harmadikv                  30            30               
+     7 negyedikv                  30            30               
+     8 koltseg                  1020                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 e1v1         *              0             0               
+     2 e1v2         *             10             0               
+     3 e1v3         *             25             0               
+     4 e1v4         *              0             0               
+     5 e2v1         *             45             0               
+     6 e2v2         *              0             0               
+     7 e2v3         *              5             0               
+     8 e2v4         *              0             0               
+     9 e3v1         *              0             0               
+    10 e3v2         *             10             0               
+    11 e3v3         *              0             0               
+    12 e3v4         *             30             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
