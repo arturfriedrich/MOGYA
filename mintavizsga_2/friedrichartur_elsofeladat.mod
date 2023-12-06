@@ -20,4 +20,6 @@ s.t. Budapest : Kolozsvar_Budapest + Marosvasarhely_Budapest + Temesvar_Budapest
 s.t. Gyor : Kolozsvar_Gyor + Marosvasarhely_Gyor + Temesvar_Gyor = 800;
 s.t. Szeged : Kolozsvar_Szeged + Marosvasarhely_Szeged + Temesvar_Szeged = 1300;
 
+s.t. Kolozsvar_Gyor_utvonal: Kolozsvar_Gyor <=100;
+
 minimize szallitasi_koltseg : 10*Kolozsvar_Budapest + 12*Kolozsvar_Gyor + 5*Kolozsvar_Szeged + 16*Marosvasarhely_Budapest + 10*Marosvasarhely_Gyor + 9*Marosvasarhely_Szeged + 14*Temesvar_Budapest + 18*Temesvar_Gyor + 20*Temesvar_Szeged;

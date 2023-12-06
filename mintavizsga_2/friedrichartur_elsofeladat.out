@@ -1,7 +1,7 @@
 Problem:    friedrichartur_elsofeladat
-Rows:       7
+Rows:       8
 Columns:    9 (9 integer, 0 binary)
-Non-zeros:  27
+Non-zeros:  28
 Status:     INTEGER OPTIMAL
 Objective:  szallitasi_koltseg = 33100 (MINimum)
 
@@ -14,7 +14,9 @@ Objective:  szallitasi_koltseg = 33100 (MINimum)
      4 Budapest                 1100          1100             = 
      5 Gyor                      800           800             = 
      6 Szeged                   1300          1300             = 
-     7 szallitasi_koltseg
+     7 Kolozsvar_Gyor_utvonal
+                                   0                         100 
+     8 szallitasi_koltseg
                                33100                             
 
    No. Column name       Activity     Lower bound   Upper bound
