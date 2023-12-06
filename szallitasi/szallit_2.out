@@ -1,0 +1,45 @@
+Problem:    szallit_2
+Rows:       8
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  36
+Status:     INTEGER OPTIMAL
+Objective:  szallitasi_koltseg = 364 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 R1                         30            30             = 
+     2 R2                         40            40             = 
+     3 R3                         50            50             = 
+     4 B1                         20            20             = 
+     5 B2                         16            16             = 
+     6 B3                         42            42             = 
+     7 B4                         42            42             = 
+     8 szallitasi_koltseg
+                                 364                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 B1R1         *              0             0               
+     2 B2R1         *             16             0               
+     3 B3R1         *             12             0               
+     4 B4R1         *              2             0               
+     5 B1R2         *              0             0               
+     6 B2R2         *              0             0               
+     7 B3R2         *              0             0               
+     8 B4R2         *             40             0               
+     9 B1R3         *             20             0               
+    10 B2R3         *              0             0               
+    11 B3R3         *             30             0               
+    12 B4R3         *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

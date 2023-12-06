@@ -1,0 +1,64 @@
+Problem:    szallit2_halmaz
+Rows:       8
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  36
+Status:     INTEGER OPTIMAL
+Objective:  szallitasi_koltseg = 364 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Gyarak_megszoritas[R1]
+                                  30            30             = 
+     2 Gyarak_megszoritas[R2]
+                                  40            40             = 
+     3 Gyarak_megszoritas[R3]
+                                  50            50             = 
+     4 Boltok_megszoritas[B1]
+                                  20            20             = 
+     5 Boltok_megszoritas[B2]
+                                  16            16             = 
+     6 Boltok_megszoritas[B3]
+                                  42            42             = 
+     7 Boltok_megszoritas[B4]
+                                  42            42             = 
+     8 szallitasi_koltseg
+                                 364                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 szallitasi_mennyiseg[R1,B1]
+                    *              0             0               
+     2 szallitasi_mennyiseg[R1,B2]
+                    *             16             0               
+     3 szallitasi_mennyiseg[R1,B3]
+                    *             12             0               
+     4 szallitasi_mennyiseg[R1,B4]
+                    *              2             0               
+     5 szallitasi_mennyiseg[R2,B1]
+                    *              0             0               
+     6 szallitasi_mennyiseg[R2,B2]
+                    *              0             0               
+     7 szallitasi_mennyiseg[R2,B3]
+                    *              0             0               
+     8 szallitasi_mennyiseg[R2,B4]
+                    *             40             0               
+     9 szallitasi_mennyiseg[R3,B1]
+                    *             20             0               
+    10 szallitasi_mennyiseg[R3,B2]
+                    *              0             0               
+    11 szallitasi_mennyiseg[R3,B3]
+                    *             30             0               
+    12 szallitasi_mennyiseg[R3,B4]
+                    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
