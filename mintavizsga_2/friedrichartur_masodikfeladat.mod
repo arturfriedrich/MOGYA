@@ -1,12 +1,15 @@
 # 2. feladat
 
+# A sorok és az oszlopok címei lesznek a set-ek
 set Gyarak;
 set Boltok;
 
+# Az utolsó sor és az utolsó oszlop külön param, valamint a tartalom is egy 2D param
 param Gyartasi_kapacitas{Gyarak};
 param Igeny{Boltok};
 param Koltsegek{Gyarak, Boltok};
 
+# Ez a változó megadja a szállítást
 var szallitas{Gyarak, Boltok} >= 0, integer;
 
 # Végig megyünk a halmazokon
