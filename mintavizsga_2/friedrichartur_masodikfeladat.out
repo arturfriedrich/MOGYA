@@ -1,0 +1,58 @@
+Problem:    friedrichartur_masodikfeladat
+Rows:       8
+Columns:    9 (9 integer, 0 binary)
+Non-zeros:  28
+Status:     INTEGER OPTIMAL
+Objective:  szallitasikoltseg = 33100 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Gyarak_megszoritas[Kolozsvar]
+                                1000          1000             = 
+     2 Gyarak_megszoritas[Marosvasarhely]
+                                 850           850             = 
+     3 Gyarak_megszoritas[Temesvar]
+                                1350          1350             = 
+     4 Boltok_megszoritas[Budapest]
+                                1100          1100             = 
+     5 Boltok_megszoritas[Gyor]
+                                 800           800             = 
+     6 Boltok_megszoritas[Szeged]
+                                1300          1300             = 
+     7 Kolozsvar_Gyor_utvonal
+                                   0                         100 
+     8 szallitasikoltseg
+                               33100                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 szallitas[Kolozsvar,Budapest]
+                    *              0             0               
+     2 szallitas[Kolozsvar,Gyor]
+                    *              0             0               
+     3 szallitas[Kolozsvar,Szeged]
+                    *           1000             0               
+     4 szallitas[Marosvasarhely,Budapest]
+                    *              0             0               
+     5 szallitas[Marosvasarhely,Gyor]
+                    *            550             0               
+     6 szallitas[Marosvasarhely,Szeged]
+                    *            300             0               
+     7 szallitas[Temesvar,Budapest]
+                    *           1100             0               
+     8 szallitas[Temesvar,Gyor]
+                    *            250             0               
+     9 szallitas[Temesvar,Szeged]
+                    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
