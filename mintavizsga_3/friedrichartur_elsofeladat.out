@@ -1,0 +1,59 @@
+Problem:    friedrichartur_elsofeladat
+Rows:       9
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  38
+Status:     INTEGER OPTIMAL
+Objective:  szallitasi_koltseg = 37800 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Kolozsvar                1000          1000             = 
+     2 Marosvasarhely
+                                2000          2000             = 
+     3 Temesvar                 1500          1500             = 
+     4 Budapest                 1100          1100             = 
+     5 Gyor                      800           800             = 
+     6 Szeged                   1300          1300             = 
+     7 Pecs                     1300          1300             = 
+     8 rablobandak               100                         100 
+     9 szallitasi_koltseg
+                               37800                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Kolozsvar_Budapest
+                    *              0             0               
+     2 Kolozsvar_Gyor
+                    *              0             0               
+     3 Kolozsvar_Szeged
+                    *           1000             0               
+     4 Kolozsvar_Pecs
+                    *              0             0               
+     5 Marosvasarhely_Budapest
+                    *              0             0               
+     6 Marosvasarhely_Gyor
+                    *            700             0               
+     7 Marosvasarhely_Szeged
+                    *              0             0               
+     8 Marosvasarhely_Pecs
+                    *           1300             0               
+     9 Temesvar_Budapest
+                    *           1100             0               
+    10 Temesvar_Gyor
+                    *            100             0               
+    11 Temesvar_Szeged
+                    *            300             0               
+    12 Temesvar_Pecs
+                    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
