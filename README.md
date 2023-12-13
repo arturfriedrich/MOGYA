@@ -7,4 +7,7 @@ nem is lettek frissítve. A programkódokat nem én állítottam össze, csak ko
 ## Oktatók
 - Dr. Szi Brigitta http://rs1.sze.hu/~szibr/GKNB_INTM019/
 
+`Disclamer:`
+Az anyagot a 2023/24/1 félév óta nem frissítettem, így a tartalma elavult is lehet.
+
 PS.: Ha segített a repo felkészülni a vizsgára, egy csillagot azért dobhatsz, köszi <3
